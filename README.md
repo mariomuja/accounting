@@ -1,2 +1,0 @@
-# accounting
-Created with CodeSandbox
