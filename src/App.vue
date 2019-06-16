@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img width="25%" src="./assets/logo.png">
-    <Accounting msg="A new way to do accounting."/>
+    <Accounting msg="why is that grid not working"/>
   </div>
 </template>
 

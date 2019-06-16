@@ -1,12 +1,28 @@
 <template>
-  <div class="hello">
+  <div>
     <h1>{{ msg }}</h1>
+    <p>test</p>
+
+    <div class="columns">
+      <div class="column">
+        <Address personFullName="Mario Muja"></Address>
+      </div>
+      <div class="column">
+        <Address personFullName="Mario Muja"></Address>
+      </div>
+      <div class="column">Auto</div>
+    </div>
   </div>
 </template>
 
 <script>
+import Address from "./Address";
+
 export default {
-  name: "Accounting",
+  name: "accounting",
+  components: {
+    Address
+  },
   props: {
     msg: String
   }
@@ -15,18 +31,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
 </style>
